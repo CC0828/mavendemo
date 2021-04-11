@@ -11,6 +11,7 @@ public class Main {
         System.out.println(linkedList.get(1));
         System.out.println("12345");
         System.out.println("abcde");
+        System.out.println("fdsafdsafa");
     }
 
 }
