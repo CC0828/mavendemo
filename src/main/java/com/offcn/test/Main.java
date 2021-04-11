@@ -10,6 +10,7 @@ public class Main {
         linkedList.add(1,"B");
         System.out.println(linkedList.get(1));
         System.out.println("12345");
+        System.out.println("abcde");
     }
 
 }
