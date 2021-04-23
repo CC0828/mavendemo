@@ -1,17 +1,34 @@
 package com.offcn.test;
 
-import java.util.LinkedList;
-import java.util.Scanner;
+import sun.font.TextSource;
+
+import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Main {
     public static void main(String[] args) {
-
-
-        System.out.println("1234588888888");
-        System.out.println("abcde");
-        System.out.println("fdsafdsa5fa");
-        System.out.println("fdsafdsaafdsafdsafads");
-        System.out.println("fdsafdsaafdsafdsafads0");
+        Map map = new HashMap();
     }
 
+
+
+}
+
+class A{
+    static {
+        System.out.println("1");
+    }
+
+    public A(){
+        System.out.println("a");
+    }
+}
+class B  extends A{
+    static {
+        System.out.println("2");
+    }
+
+    public B(){
+        System.out.println("b");
+    }
 }
