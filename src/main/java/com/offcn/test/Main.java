@@ -9,6 +9,8 @@ public class Main {
     public static void main(String[] args) {
         Map map = new HashMap();
         System.out.println("123");
+        System.out.println("abc");
+        System.out.println("abcde");
     }
 
 
